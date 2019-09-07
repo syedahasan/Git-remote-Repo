@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "abcd"  parallel="methods">
+
+<test name = "abc">
+
+<classes>
+
+<class name = "com.bit.test.RegrassionTest">
+
+<methods>
+
+<include name = "test4"></include>
+<include name="test5"></include>
+<include name="test2"></include>
+</methods>
+
+</class>
+
+</classes>
+
+
+</test>
+
+</suite>

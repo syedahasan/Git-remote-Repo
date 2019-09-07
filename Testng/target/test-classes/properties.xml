@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "RegrassionTest">
+<test>
+<classes>
+
+<class name = "com.bit.test.RegrassionTest">
+
+<methods>
+
+<include name = "test2">
+
+
+</include>
+
+
+</methods>
+
+</class>
+
+
+
+</classes>
+
+
+
+</test>
+
+</suite>
